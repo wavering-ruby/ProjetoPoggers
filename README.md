@@ -72,13 +72,13 @@ Depois disso, você pode usar o seguinte comando para testar como estão as conf
 npm run dev
 ```
 
-It will take you to a simple site that allows you to click a button and count how many times you clicked.
+Isso levará você a um site simples que permite clicar em um botão e contar quantas vezes você clicou.
 
 ### Library
 
 #### react-router-dom
 
-Use the command:
+Use o comando abaixo:
 
 ```powershell
 npm install react-router-dom
