@@ -64,9 +64,9 @@ Para instalar as dependências do pacote, você precisará prosseguir com o coma
 npm install
 ```
 
-It should have created a package with the node modules, called: `node_modules`.
+Ele deve ter criado um pacote com os módulos do node, chamado: `node_modules`.
 
-After that, you can use the following command to test how your project configurations are and check if the installation was successful:
+Depois disso, você pode usar o seguinte comando para testar como estão as configurações do seu projeto e verificar se a instalação foi bem-sucedida:
 
 ```powershell
 npm run dev
