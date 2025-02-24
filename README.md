@@ -38,13 +38,13 @@
 ### Vite
 
 ### Instalação
-First, we need to create some configurations for Vite. Ideally, we will place it within the project folder. Using the Change Directory command:
+Primeiramente, deve-se criar uma configuração para o Vite. Geralmente, nós colocamos dentro da pasta do projeto. Para isso, precisamos utilizar o comando abaixo para mudar o diretório:
 
 ```powershell
 cd "./Project"
 ```
 
-After that, you can create the latest configuration version of Vite using the command below:
+Depois disso, você pode criar a configuração mais recente do Vite utilizando o comando abaixo:
 
 ```powershell
 npm create vite@latest .
