@@ -50,15 +50,15 @@ Depois disso, você pode criar a configuração mais recente do Vite utilizando 
 npm create vite@latest .
 ```
 
-Then, it will ask you how to proceed with the installation. In this case, you should choose the option `Ignore Files and continue`.
+Em seguida, ele perguntará como proceder com a instalação. Nesse caso, você deve escolher a opção `Ignore Files and continue`.
 
-Next, you will need to choose the project name. You can choose any name you like.
+Depois, você precisará escolher o nome do projeto. Você pode escolher qualquer nome que desejar.
 
-A screen will appear to select the framework. In this case, select React.
+Uma tela aparecerá para selecionar o framework. Nesse caso, selecione React.
 
-Finally, select the language to be JavaScript. After that, you will see that several base files have appeared within the folders.
+Por fim, selecione a linguagem como JavaScript. Após isso, você verá que vários arquivos base apareceram dentro das pastas.
 
-To install the package dependencies, you will need to proceed with the command below:
+Para instalar as dependências do pacote, você precisará prosseguir com o comando abaixo:
 
 ```powershell
 npm install
