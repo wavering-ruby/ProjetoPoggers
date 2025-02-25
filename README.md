@@ -135,7 +135,9 @@ npm install react-router-dom
  
  **4:** Após isso aparece as opções para clonar o repositorio selecione a parte de **github.com** e clique em clonar
  
- **5:** Após isso só **clicar Ctrl + Shift + A** que abrirá o VScode, por onde poderá 
+ **5:** Após isso só **clicar Ctrl + Shift + A** que abrirá o VScode, por onde poderá
+
+---
 
 ## Procedimento de Compilação
 
