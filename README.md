@@ -37,7 +37,10 @@
 
 ### Vite
 
+---
+
 ### Instalação
+
 Primeiramente, deve-se criar uma configuração para o Vite. Geralmente, nós colocamos dentro da pasta do projeto. Para isso, precisamos utilizar o comando abaixo para mudar o diretório:
 
 ```powershell
@@ -74,7 +77,9 @@ npm run dev
 
 Isso levará você a um site simples que permite clicar em um botão e contar quantas vezes você clicou.
 
-### Library
+### Bibliotecas
+
+---
 
 #### react-router-dom
 
