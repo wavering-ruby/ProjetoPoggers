@@ -23,7 +23,7 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
 <table>
     <tr>
         <th>
-            **Action**
+            Action
         </th>
         <th>
             Define ações normais que foram planejadas para o *sprint* e incluídas no sprint.
@@ -31,7 +31,7 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
     </tr>
     <tr>
         <th>
-            **Bug**
+            Bug
         </th>
         <th>
             Quando há algum tipo de erro dentro do *software*, que deverá ser concertado.
@@ -40,7 +40,7 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
     </tr>
         <tr>
         <th>
-            **Documentation**
+            Documentation
         </th>
         <th>
             Qualquer tipo de ação que poderá mexer com algum tipo de documentação. Tal como: "Revisar documento sobre determinado assunto". 
