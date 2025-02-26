@@ -37,9 +37,11 @@
 
 ### Vite
 
+Em poucas palavras, o Vite é uma ferramenta de construção JavaScript moderna que fornece suporte pronto para uso para padrões comuns da web, oferecendo compilações otimizadas com a flexibilidade e maturidade do rollup , juntamente com um servidor de desenvolvimento rápido e sem pacotes.
+
 ---
 
-### Instalação
+#### Instalação
 
 Primeiramente, deve-se criar uma configuração para o Vite. Geralmente, nós colocamos dentro da pasta do projeto. Para isso, precisamos utilizar o comando abaixo para mudar o diretório:
 
@@ -77,11 +79,11 @@ npm run dev
 
 Isso levará você a um site simples que permite clicar em um botão e contar quantas vezes você clicou.
 
-### Bibliotecas
+#### Bibliotecas
 
 ---
 
-#### react-router-dom
+##### react-router-dom
 
 Use o comando abaixo:
 
