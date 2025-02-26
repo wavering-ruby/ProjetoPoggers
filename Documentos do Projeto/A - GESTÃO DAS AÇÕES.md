@@ -12,6 +12,10 @@ A Metologia Ágil é um metodologia que permite gerir projetos de uma forma ráp
 
 ## X. Ações
 
+### X.Y. Objetivo Geral
+
+O objetivo geral é dividirmos a criação de um *software* em ações que servem para criar uma nova versão ou o produto em si. Dessa maneira, podemos determinar responsáveis por cada uma dessas atividades além de definir prazos para a resolução da versão ou do produto.
+
 ### X.Y. Tags
 
 Cada ação tem um indicativo colorido e escrito chamado de *label* que permite filtrar o seu tipo. A tabela abaixo trás o significado da *label*.
@@ -43,3 +47,7 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
         </th>
     </tr>
 </table>
+
+### X.Y. Milestone
+
+As *milestone* são os *sprints* do projeto, onde estará determinadas todas as ações que pertecem a determinada versão do *software*. Podemos atribuir prazos e quais ações queremos priorizar para aquela versão.
