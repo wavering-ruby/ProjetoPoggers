@@ -51,4 +51,6 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
 
 ### X.Y. Milestone
 
-As *milestone* são os *sprints* do projeto, onde estará determinadas todas as ações que pertecem a determinada versão do *software*. Podemos atribuir prazos e quais ações queremos priorizar para aquela versão.
+As *Milestone* são os *sprints* do projeto, onde estará determinadas todas as ações que pertecem a determinada versão do *software*. Podemos atribuir prazos e quais ações queremos priorizar para aquela versão.
+
+Quando finalizados uma Milestone podemos criar um novo *Release* que seria o local para marcar quando foi finalizado uma versão ou o produto final e lançá-lo para um cliente. 
