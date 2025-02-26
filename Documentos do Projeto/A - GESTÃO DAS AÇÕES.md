@@ -10,6 +10,12 @@ Este documento visa explicar e registrar todas as etapas de criação, além de 
 
 A Metologia Ágil (conhecida como Scrum) é um metodologia que permite gerir projetos de uma forma rápida e receptiva a mudanças (incluindo reorganizações) de ações ou suas priorizações. Um dos principais ganhos fora da agilidade, também foi a possível presença e auditorias diretas do cliente durante um determinado *sprint*.
 
+Essas ações são armazenadas dentro de um *back-log*, onde eles podem ser priorizados e reorganizado conforme as organizações dos *sprints* geralmente, eles são alimentados pela própria equipe com específicações dos clientes. 
+
+### 2.2. Sprint
+
+O *sprint* é um compilado de ações que tem como objetivo organizar todas as ações que deverão ser feitas para concluir o produto ou a versão. Cada *sprint* tem uma data de término definida (geralmente, no máximo até duas semanas) com ações para entregar um produto pronto no final.
+
 ## X. Ações
 
 ### X.Y. Objetivo Geral
