@@ -37,13 +37,13 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
     <tr>
       <td><strong>Action</strong></td>
       <td>
-        Define ações normais que foram planejadas para o *sprint* e incluídas no sprint.
+        Define ações normais que foram planejadas para o sprint e incluídas no sprint.
       </td>
     </tr>
     <tr>
       <td><strong>Bug</strong></td>
       <td>
-        Quando há algum tipo de erro dentro do *software*, que deverá ser concertado.
+        Quando há algum tipo de erro dentro do software, que deverá ser concertado.
       </td>
     </tr>
     <tr>
