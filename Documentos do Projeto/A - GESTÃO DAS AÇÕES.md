@@ -21,32 +21,33 @@ O objetivo geral é dividirmos a criação de um *software* em ações que serve
 Cada ação tem um indicativo colorido e escrito chamado de *label* que permite filtrar o seu tipo. A tabela abaixo trás o significado da *label*.
 
 <table>
+  <thead>
     <tr>
-        <th>
-            **Action**
-        </th>
-        <th>
-            Define ações normais que foram planejadas para o *sprint* e incluídas no sprint.
-        </th>
+      <th>Label</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Action</strong></td>
+      <td>
+        Define ações normais que foram planejadas para o *sprint* e incluídas no sprint.
+      </td>
     </tr>
     <tr>
-        <th>
-            **Bug**
-        </th>
-        <th>
-            Quando há algum tipo de erro dentro do *software*, que deverá ser concertado.
-        </th>
+      <td><strong>Bug</strong></td>
+      <td>
+        Quando há algum tipo de erro dentro do *software*, que deverá ser concertado.
+      </td>
     </tr>
+    <tr>
+      <td><strong>Documentation</strong></td>
+      <td>
+        Qualquer tipo de ação que poderá mexer com algum tipo de documentação. Tal como: "Revisar documento sobre determinado assunto".
+      </td>
     </tr>
-        <tr>
-        <th>
-            **Documentation**
-        </th>
-        <th>
-            Qualquer tipo de ação que poderá mexer com algum tipo de documentação. Tal como: "Revisar documento sobre determinado assunto". 
-        </th>
-    </tr>
-</table>
+  </tbody>
+</table> 
 
 ### X.Y. Milestone
 
