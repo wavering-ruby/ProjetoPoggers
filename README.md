@@ -37,6 +37,8 @@
 
 ### Vite
 
+Em poucas palavras, o Vite é uma ferramenta de construção JavaScript moderna que fornece suporte pronto para uso para padrões comuns da web, oferecendo compilações otimizadas com a flexibilidade e maturidade do rollup , juntamente com um servidor de desenvolvimento rápido e sem pacotes.
+
 ---
 
 #### Instalação
