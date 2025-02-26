@@ -8,7 +8,7 @@ Este documento visa explicar e registrar todas as etapas de criação, além de 
 
 ### 2.1. Definição Geral
 
-A Metologia Ágil é um metodologia que permite gerir projetos de uma forma rápida e receptiva a mudanças (incluindo reorganizações) de ações ou suas priorizações. Um dos principais ganhos fora da agilidade, também foi a possível presença e auditorias diretas do cliente durante um determinado *sprint*.
+A Metologia Ágil (conhecida como Scrum) é um metodologia que permite gerir projetos de uma forma rápida e receptiva a mudanças (incluindo reorganizações) de ações ou suas priorizações. Um dos principais ganhos fora da agilidade, também foi a possível presença e auditorias diretas do cliente durante um determinado *sprint*.
 
 ## X. Ações
 
@@ -53,4 +53,10 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
 
 As *Milestone* são os *sprints* do projeto, onde estará determinadas todas as ações que pertecem a determinada versão do *software*. Podemos atribuir prazos e quais ações queremos priorizar para aquela versão.
 
-Quando finalizados uma Milestone podemos criar um novo *Release* que seria o local para marcar quando foi finalizado uma versão ou o produto final e lançá-lo para um cliente. 
+Quando finalizados uma Milestone podemos criar um novo *Release* que seria o local para marcar quando foi finalizado uma versão ou o produto final e lançá-lo para um cliente.
+
+## X. Realeses
+
+### X.Y. Objetivo Geral
+
+Os *Realeses* servem para armazenar novas versões ou produtos que foram finalizados após o término de um *sprint*. Permitindo uma organização dinâmica para os lançamentos do *software* que é construído. 
