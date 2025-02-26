@@ -14,15 +14,32 @@ A Metologia Ágil é um metodologia que permite gerir projetos de uma forma ráp
 
 ### X.Y. Tags
 
-Cada ação tem um indicativo colorido e escrito chamado de *tag* ou *label* que permite o filtro de cada tipo de ação será.
+Cada ação tem um indicativo colorido e escrito chamado de *label* que permite filtrar o seu tipo. A tabela abaixo trás o significado da *label*.
 
 <table>
+    <tr>
+        <th>
+            **Action**
+        </th>
+        <th>
+            Define ações normais que foram planejadas para o *sprint* e incluídas no sprint.
+        </th>
+    </tr>
     <tr>
         <th>
             **Bug**
         </th>
         <th>
-            Quando há algum tipo de erro dentro do software, que deverá ser concertado.
+            Quando há algum tipo de erro dentro do *software*, que deverá ser concertado.
+        </th>
+    </tr>
+    </tr>
+        <tr>
+        <th>
+            **Documentation**
+        </th>
+        <th>
+            Qualquer tipo de ação que poderá mexer com algum tipo de documentação. Tal como: "Revisar documento sobre determinado assunto". 
         </th>
     </tr>
 </table>
