@@ -137,6 +137,15 @@ npm install react-router-dom
 - Image preview
 - Material Icon Theme
 
+### Back
+- Database Cliente JDBC
+- Spring Boot Dashboard
+- Spring Boot Extension Pack
+- Spring Initializer Java Support
+- PostgreSQL
+- Postman
+
+
 ## Versionamento
 
 ---
@@ -161,7 +170,7 @@ Para o versionamento do *software*, será utilizado o *Releases* - criado exatam
  
 **4:** Após isso aparece as opções para clonar o repositorio selecione a parte de **github.com** e clique em clonar
  
-**5:** Após isso só **clicar Ctrl + Shift + A** que abrirá o VScode, por onde poderá
+**5:** Após isso só **clicar Ctrl + Shift + A** que abrirá o VScode, por onde poderá começar a programar.
 
 ---
 
