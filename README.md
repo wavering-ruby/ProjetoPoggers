@@ -129,7 +129,7 @@ npm install react-router-dom
 node -v
 ```
 
-**7:** Se ao fazer isso e der a versão 
+**7:** Se ao fazer isso e der a versão **v22.14.0** então está tudo certo.
 
 
 ### Spring Boot
