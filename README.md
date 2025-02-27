@@ -118,11 +118,19 @@ npm install react-router-dom
 
 **2:** Após instalar execute o **node-v22.14.0-x64** ao fazer isso irá aparecer guias referentes ao download 
  
-**3:** Aceite os termos até que em uma das paginas apareça uma caixinha que apareça a palavra chocolatey e marque-a e proxima
+**3:** Aceite os termos até que em uma das paginas apareça uma caixinha que apareça a palavra **chocolatey** e marque-a e proxima
   
 **4:** Depois disso aceite o pedido para abrir o powershell e deixe ele terminar o projeto
  
-**5:** 
+**5:** Depois de um tempo o powershell não fará mais nada então abra o vscode e crie um terminal novo
+
+**6:** No terminal novo digite 
+```
+node -v
+```
+
+**7:** Se ao fazer isso e der a versão 
+
 
 ### Spring Boot
 
