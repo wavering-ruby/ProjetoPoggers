@@ -112,7 +112,17 @@ npm install react-router-dom
 
 ### Node.js
 
----
+### Instalação
+
+**1:** Primeiramente entre no site **https://nodejs.org/pt** para que assim baixe o instalador
+
+**2:** Após instalar execute o **node-v22.14.0-x64** ao fazer isso irá aparecer guias referentes ao download 
+ 
+**3:** Aceite os termos até que em uma das paginas apareça uma caixinha que apareça a palavra chocolatey e marque-a e proxima
+  
+**4:** Depois disso aceite o pedido para abrir o powershell e deixe ele terminar o projeto
+ 
+**5:** 
 
 ### Spring Boot
 
