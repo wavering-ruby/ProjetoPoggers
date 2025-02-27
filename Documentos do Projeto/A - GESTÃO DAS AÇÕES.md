@@ -4,6 +4,8 @@
 
 Este documento visa explicar e registrar todas as etapas de criação, além de sua organização e definições. Esse procedimento também irá mostrar como funciona a criação de *sprints* que gerará - ao seu término - uma nova versão do *software* desenvolvido, com os registros das ações que o geraram. 
 
+---
+
 ## 2. Metodologias Ágeis
 
 ### 2.1. Definição Geral
@@ -25,6 +27,8 @@ Nem todo *backlog* funciona da mesma maneira, no caso deste projeto, as ações 
 ### 2.4. Kanban
 
 O Kanban é um quadro que permite a organização visual dos status das ações, permitindo que tanto os gerentes quanto os clientes consigam ver o andamento do projeto de forma ágil e direta. No caso do projeto, não há maneira clara de ver isso, mas por meio do *Milestone* o cliente poderia ver a conclusão e como está os andamentos das ações nos comentários de cada *Issue*.
+
+---
 
 ## 3. Gestão
 
@@ -86,3 +90,5 @@ Quando finalizados uma Milestone podemos criar um novo *Release* que seria o loc
 ### 3.4.1. Objetivo Geral
 
 Os *Realeses* servem para armazenar novas versões ou produtos que foram finalizados após o término de um *sprint*. Permitindo uma organização dinâmica para os lançamentos do *software* que é construído. 
+
+---
