@@ -13,6 +13,8 @@
 
 # Tecnologias Utilizadas
 
+## Tag's das Tecnologias
+
 ---
 
 ## Modelagem de Software
@@ -81,8 +83,6 @@ Isso levará você a um site simples que permite clicar em um botão e contar qu
 
 #### Bibliotecas
 
----
-
 ##### react-router-dom
 
 Use o comando abaixo:
@@ -125,27 +125,31 @@ npm install react-router-dom
 
 ---
 
-# Versionamento
+## Versionamento
 
 ---
 
 ## GitHub
 
+### Objetivo Geral
+
+Para organizarmos o projeto era necessário uma ferramenta que seja capaz de armazenar ações e os arquivos, organizar o *backlog* e ter uma sistemática de versionamento e metas. Para utilizar cada um desses aspectos do desenvolvimento do sistema, o GitHub foi a ferramenta ideal, pois, com as devidas adaptações e extensões, ele consegue simplificar e organizar tudo o que é necessário dentro de apenas um site. 
+
+O controle de ações foi implementado em *Issues* onde é possível localizar o *"To do"* do *software* e distribuir as responsabilidades do software. Uma das possibilidades de se organizar o *sprint* do projeto é utilizando o *Milestone*, onde é possível atribuir prazos (meta para finalização) e nele você consegue inserir todas as ações que são necessárias para a conclusão do *sprint* retornando a porcentagem de participação.
+
+Para o versionamento do *software*, será utilizado o *Releases* - criado exatamente para isso - onde é possível organizar os arquivos por versões e ficar armazenados dentro de um *Release*.
+
 ### Instalação
 
 **1:** Aplicativos necessarios: **github desktop: https://desktop.github.com/download/** (link direto para download), **vscode**
 
- **2:** Depois de instalar abra o github desktop e logge com a sua conta
+**2:** Depois de instalar abra o github desktop e logge com a sua conta
  
- **3:** Depois de loggar debaixo de Let's Get Started selecione a opção: **wavering-ruby/ProjetoPoggers**
+**3:** Depois de loggar debaixo de Let's Get Started selecione a opção: **wavering-ruby/ProjetoPoggers**
  
- **4:** Após isso aparece as opções para clonar o repositorio selecione a parte de **github.com** e clique em clonar
+**4:** Após isso aparece as opções para clonar o repositorio selecione a parte de **github.com** e clique em clonar
  
- **5:** Após isso só **clicar Ctrl + Shift + A** que abrirá o VScode, por onde poderá
-
----
-
-## Procedimento de Compilação
+**5:** Após isso só **clicar Ctrl + Shift + A** que abrirá o VScode, por onde poderá
 
 ---
 
