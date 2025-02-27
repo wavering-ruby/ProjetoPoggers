@@ -10,19 +10,37 @@ Este documento visa explicar e registrar todas as etapas de criação, além de 
 
 A Metologia Ágil (conhecida como Scrum) é um metodologia que permite gerir projetos de uma forma rápida e receptiva a mudanças (incluindo reorganizações) de ações ou suas priorizações. Um dos principais ganhos fora da agilidade, também foi a possível presença e auditorias diretas do cliente durante um determinado *sprint*.
 
-Essas ações são armazenadas dentro de um *back-log*, onde eles podem ser priorizados e reorganizado conforme as organizações dos *sprints* geralmente, eles são alimentados pela própria equipe com específicações dos clientes. 
+Essas ações são armazenadas dentro de um *backlog*, onde eles podem ser priorizados e reorganizado conforme as organizações dos *sprints* geralmente, eles são alimentados pela própria equipe com específicações dos clientes. 
 
 ### 2.2. Sprint
 
 O *sprint* é um compilado de ações que tem como objetivo organizar todas as ações que deverão ser feitas para concluir o produto ou a versão. Cada *sprint* tem uma data de término definida (geralmente, no máximo até duas semanas) com ações para entregar um produto pronto no final.
 
-## X. Ações
+### 2.3. Backlog
 
-### X.Y. Objetivo Geral
+O *backlog* é uma lista com todas as ações que deverão ser entregues junto com o projeto. Ele pode ser organizado de várias formas e serve de alimentação para um *sprint*, que antes, recebe um priorização das principais e mais importantes atividades que devem ser entregues. Essas ações são priorizadas conforme expectativa do cliente, do *Product Owner* (voz do cliente), pelos desenvolvedores ou por requisitos (segurança, normas etc). 
+
+Nem todo *backlog* funciona da mesma maneira, no caso deste projeto, as ações são armazenadas dentro das *Issues* e o *sprint* é armazenado em *Milestone* que serão melhor explicados em ações.
+
+### 2.4. Kanban
+
+O Kanban é um quadro que permite a organização visual dos status das ações, permitindo que tanto os gerentes quanto os clientes consigam ver o andamento do projeto de forma ágil e direta. No caso do projeto, não há maneira clara de ver isso, mas por meio do *Milestone* o cliente poderia ver a conclusão e como está os andamentos das ações nos comentários de cada *Issue*.
+
+## 3. Gestão
+
+### 3.1. Objetivo Geral
 
 O objetivo geral é dividirmos a criação de um *software* em ações que servem para criar uma nova versão ou o produto em si. Dessa maneira, podemos determinar responsáveis por cada uma dessas atividades além de definir prazos para a resolução da versão ou do produto.
 
-### X.Y. Tags
+### 3.2. Issues
+
+### 3.2.1. Objetivo Geral
+
+O objetivo geral é definir e atribuir responsabilidade nas atividades que deverão ser realizadas para término do projeto ou da versão do projeto, permitindo que tenha um controle consistente e fácil das ações. Com as *Issues* é possível colocar *Labels* para organizar qual o tipo de ação é aquela e possibilitando a atribuição de responsáveis.
+
+Além disso, é possível utilizá-las para servir como alimentação para uma *Milestone* que servirá como um *sprint* para esse projeto, sendo as *Issues* o backlog.
+
+#### 3.2.2. Label
 
 Cada ação tem um indicativo colorido e escrito chamado de *label* que permite filtrar o seu tipo. A tabela abaixo trás o significado da *label*.
 
@@ -37,7 +55,7 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
     <tr>
       <td><strong>Action</strong></td>
       <td>
-        Define ações normais que foram planejadas para o sprint e incluídas no sprint.
+        Define ações normais que foram planejadas e incluídas no sprint.
       </td>
     </tr>
     <tr>
@@ -55,16 +73,16 @@ Cada ação tem um indicativo colorido e escrito chamado de *label* que permite 
   </tbody>
 </table> 
 
-## X.Y. Milestone
+## 3.3. Milestone
 
-### Objetivo Geral
+### 3.3.1. Objetivo Geral
 
 As *Milestone* são os *sprints* do projeto, onde estará determinadas todas as ações que pertecem a determinada versão do *software*. Podemos atribuir prazos e quais ações queremos priorizar para aquela versão.
 
 Quando finalizados uma Milestone podemos criar um novo *Release* que seria o local para marcar quando foi finalizado uma versão ou o produto final e lançá-lo para um cliente.
 
-## X. Realeses
+## 3.4. Realeses
 
-### X.Y. Objetivo Geral
+### 3.4.1. Objetivo Geral
 
 Os *Realeses* servem para armazenar novas versões ou produtos que foram finalizados após o término de um *sprint*. Permitindo uma organização dinâmica para os lançamentos do *software* que é construído. 
