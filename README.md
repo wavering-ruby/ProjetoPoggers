@@ -13,6 +13,7 @@
 
 # Tecnologias Utilizadas
 
+
 ## Tag's das Tecnologias
 
 ---
@@ -124,6 +125,17 @@ npm install react-router-dom
 ### PostgreSQL
 
 ---
+
+## Extensões do VSCode (extensões recomendadas)
+
+### Front
+- Language Support for Java
+- .NET Install Tool
+- Auto Rename Tag
+- autoSave
+- ES7 + React/Redux/React-Native snippets
+- Image preview
+- Material Icon Theme
 
 ## Versionamento
 
