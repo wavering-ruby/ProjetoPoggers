@@ -11,7 +11,7 @@
 
 # Resumo
 
-[EventLn-Logo](2.%20Projeto/imgs/logo.png)
+[EventLn-Logo](./2.%20Projeto/imgs/logo.png)
 
 O objetivo do *software* é a criação de um site que permita que os usuários crie eventos dos mais variados tipos facilmente, com um status público (qualquer pessoa pode se inscrever nesse evento) ou privado (somente pessoas que foram convidadas diretamente para esse evento). Contém diversas ferramentas para filtragem para eventos, aprovação de usuário, geradores de listas de presença, entre outras ferramentas baseadas em dificuldades comuns no gerenciamento de eventos. EventLn serve para todos os típos de festas, sendo elas familiares ou eventos públicos. 
 
