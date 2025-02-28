@@ -7,6 +7,8 @@
 - Mateus Gabriel Mendes de Paula
 - Victor Giordano Damiani
 
+---
+
 # Resumo
 
 [EventLn-Logo](2.%20Projeto/imgs/logo.png)
