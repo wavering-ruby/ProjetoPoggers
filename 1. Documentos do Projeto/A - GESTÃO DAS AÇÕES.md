@@ -85,6 +85,20 @@ As *Milestone* são os *sprints* do projeto, onde estará determinadas todas as 
 
 Quando finalizados uma Milestone podemos criar um novo *Release* que seria o local para marcar quando foi finalizado uma versão ou o produto final e lançá-lo para um cliente.
 
+### 3.3.2. Métrica de Conclusão de Ações
+
+É uma métrica utilizada para medir a velocidade de finalização de ações do projeto do projeto. Entregando um valor em procentagem que podemos separar em períodos para ver como está o atendimento aos prazos do cronograma do projeto. 
+
+Um exemplo real é a primeira versão do *software* dedicada para um protótipo do banco de dados para começar a trabalhar por módulos dentro do projeto na versão "v0.0.1.", a métrica ficaria da seguinte forma:
+
+Percentual de Conclusão do Projeto = Quantidade de Ações do Projeto / Quantidade de Ações Finalizadas do Projeto
+
+Dia 01: 15% - De Conclusão
+Dia 02: 50% - De Conclusão
+Dia 03: 100% - De Conclusão
+
+Para cada um dos módulos podemos ter cada um dessas métricas.
+
 ## 3.4. Realeses
 
 ### 3.4.1. Objetivo Geral
