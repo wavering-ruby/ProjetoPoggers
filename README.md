@@ -42,9 +42,7 @@ O objetivo do *software* é a criação de um site que permita que os usuários 
 
 ---
 
-### React
-
----
+### React + Vite
 
 ### Vite
 
