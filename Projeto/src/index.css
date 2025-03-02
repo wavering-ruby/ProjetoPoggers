@@ -1,28 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
 * { /* Esse comando serve para resetar todos os pré-sets da div */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;  /* Centraliza horizontalmente */
+  align-items: center;  /* Centraliza verticalmente */
+  height: 100vh;  /* Faz o body ocupar toda a tela */
+  background-color: #3498DB;
+}
+
 /* Login -- Parte de já registrado */
 
 .login {
   display: flex;
-  background-color: aliceblue;
   align-items: center;
   flex-direction: column;
-  width: 500px;
-  height: 500px;
+  padding: 50px;
 }
 
 .login-container{
   display: flex;
   flex-direction: column;
-  background-color: blue;
-  align-items: center;
-  flex-wrap: wrap;
+  background-color: #F4E1A1;
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: 500px;
+}
+
+.login-container__header--h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #333
 }
 
 .login-container__header{
@@ -34,6 +48,47 @@
 }
 
 .login-container__header--logo{
-  width: 30%;
-  background-color: antiquewhite;
+  width: 50%;
+}
+
+.login-container__header--message{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333
+}
+
+.login-container__body{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.login-container__body--h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333
+}
+
+.login-container__body--input {
+  width: 100%;
+  height: 35px;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efeito ao focar no input */
+.login-container__body--input:focus {
+  border-color: #007BFF; 
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5); 
 }
