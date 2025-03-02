@@ -23,3 +23,6 @@ Y demonstra a quantidade de modificações médias realizadas;
 Z demonstra a quantidade de modificações pequenas realizadas.
 
 ---
+
+### 1.2. Modificações Grandes
+
