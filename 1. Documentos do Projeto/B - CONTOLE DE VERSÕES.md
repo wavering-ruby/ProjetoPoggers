@@ -26,3 +26,6 @@ Z demonstra a quantidade de modificações pequenas realizadas.
 
 ### 1.2. Modificações Grandes
 
+As Modificações Grandes correspondem a qualquer modificação na qual, seja necessário um grande mudança na maneira que o *software* foi construído ou até mesmo quando houver 
+
+---
