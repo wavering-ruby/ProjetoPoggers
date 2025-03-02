@@ -31,8 +31,10 @@ As Modificações Grandes correspondem a qualquer modificação na qual, seja ne
 ---
 
 
-### 1.3. Modificações Granes
+### 1.3. Modificações Médias
 
 ---
 
 ### 1.4. Modifiações Pequenas
+
+---
