@@ -106,6 +106,8 @@ npm install react-router-dom
 
 #### Cuidados
 
+Recomenda-se dar uma lida em alguns comandos de CMD e PowerShell pois será necessário utilizá-los no projeto.
+
 ---
 
 ## Back-end
