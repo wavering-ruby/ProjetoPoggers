@@ -36,9 +36,13 @@ O objetivo do *software* é a criação de um site que permita que os usuários 
 
 ### HTML
 
+Para HTML, não é necessário nenhum tipo de *download* de linguagem.
+
 ---
 
 ### CSS
+
+Para CSS, não é necessário nenhum tipo de *download* de linguagem.
 
 ---
 
