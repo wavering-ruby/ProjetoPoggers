@@ -12,6 +12,8 @@ const Login = () => {
   //   message = `Fazer Login`
   // }
 
+  let inputType = 'password';
+
   return (
     <div className='login'>
         <div className='login-container'>
@@ -24,7 +26,8 @@ const Login = () => {
                 <h2 className='login-container__body--h2'>Email:</h2>
                 <input className='login-container__body--input' type='text' placeholder='exemplo.email@eventln.com'></input>
                 <h2 className='login-container__body--h2'>Senha:</h2>
-                <input className='login-container__body--input' type='text' placeholder='Senha'></input>
+                <input className='login-container__body--input' type={inputType} placeholder='Senha'></input>
+                <a className='login-container__body--forgeted-password' href='/reset-password'>Esqueci a senha...</a>
             </div>
         </div>
     </div>

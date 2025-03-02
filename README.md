@@ -116,8 +116,14 @@ Isso levará você a um site simples que permite clicar em um botão e contar qu
 
 Use o comando abaixo:
 
-```powershell
+```terminal
 npm install react-router-dom
+```
+
+##### React OAuth2
+
+```terminal
+npm install @react-oauth/google@latest
 ```
 
 ---
