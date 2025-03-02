@@ -122,8 +122,18 @@ npm install react-router-dom
 
 ##### React OAuth2
 
+Biblioteca que permite fazer login automaticamente com o Google e conseguir algumas informações vindas diretamente do usuário.
+
 ```terminal
 npm install @react-oauth/google@latest
+```
+
+##### Jwt Decode
+
+Essa biblioteca serve basicamente para decodificar informações vinda de um credencial de uma pessoa no Google. Na qual, precisamos para que ela faça login.
+
+```powershell
+npm install jwt-decode
 ```
 
 ---
