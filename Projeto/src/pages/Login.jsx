@@ -1,5 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom';
+import { GoogleOAuthProvider } from '@react-oauth/google';
+import { GoogleLogin } from '@react-oauth/google';
 
 const Login = () => {
   // const location = useLocation();
@@ -13,6 +15,10 @@ const Login = () => {
   // }
 
   let inputType = 'password';
+
+  const responseGoogle = (response) => {
+    console.log(response);
+  }
 
   return (
     <div className='login'>
@@ -28,6 +34,18 @@ const Login = () => {
                 <h2 className='login-container__body--h2'>Senha:</h2>
                 <input className='login-container__body--input' type={inputType} placeholder='Senha'></input>
                 <a className='login-container__body--forgeted-password' href='/reset-password'>Esqueci a senha...</a>
+
+                <GoogleOAuthProvider 
+                clientId="487262877617-k7mgphb14r908m13soujjbai2btaqmp8.apps.googleusercontent.com">
+                  <GoogleLogin
+                    onSuccess={credentialResponse => {
+                      console.log(credentialResponse);
+                    }}
+                    onError={() => {
+                      console.log('Login Failed');
+                    }}
+                  />
+                </GoogleOAuthProvider>
             </div>
         </div>
     </div>
