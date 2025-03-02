@@ -29,3 +29,10 @@ Z demonstra a quantidade de modificações pequenas realizadas.
 As Modificações Grandes correspondem a qualquer modificação na qual, seja necessário um grande mudança na maneira que o *software* foi construído ou até mesmo quando houver 
 
 ---
+
+
+### 1.3. Modificações Granes
+
+---
+
+### 1.4. Modifiações Pequenas
