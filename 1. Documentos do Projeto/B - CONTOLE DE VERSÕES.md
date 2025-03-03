@@ -16,8 +16,9 @@ Sabendo que as modificações podem ter diferentes níveis de complexidades, é 
 - **Modificações Médias**
 - **Modificações Pequenas**
 
-Isso reflete diretamente nos códigos das versões, onde 
+Isso reflete diretamente nos códigos das versões, onde:
 
+W demonstra o *sprint* do projeto;
 X demonstra a quantidade de modificações grandes realizadas;
 Y demonstra a quantidade de modificações médias realizadas;
 Z demonstra a quantidade de modificações pequenas realizadas.
@@ -30,11 +31,14 @@ As Modificações Grandes correspondem a qualquer modificação na qual, seja ne
 
 ---
 
-
 ### 1.3. Modificações Médias
+
+As Modificações Médias correspondem a qualquer modificação na qual, seja necessário uma sequência de atividades pequenas que podem demorar um tempo relativamente maior que as pequenas mudanças, não precisando mexer necessáriamente com mudanças na base do *software*, mas pode ser um novo projeto para um novo módulo dentro do mesmo.
 
 ---
 
 ### 1.4. Modifiações Pequenas
+
+As Modificações Pequenas correspondem diretamente a qualquer modificação que é feita no *software* cujo seu tempo de implementação não dura mais do que uma semana. Incluíndo requisitos de cliente e outros requisitos vigentes (como segurança, qualidade etc). Também podem ser derivadas de grandes ou médias modificações, de modo que fica ligadas diretamente como filhas dessas *Issues*.
 
 ---
