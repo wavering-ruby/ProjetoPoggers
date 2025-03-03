@@ -18,27 +18,27 @@ Sabendo que as modificações podem ter diferentes níveis de complexidades, é 
 
 Isso reflete diretamente nos códigos das versões, onde:
 
-W demonstra o *sprint* do projeto;
-X demonstra a quantidade de modificações grandes realizadas;
-Y demonstra a quantidade de modificações médias realizadas;
-Z demonstra a quantidade de modificações pequenas realizadas.
+
+X demonstra o *sprint* do projeto;
+Y demonstra a quantidade de modificações de emergência realizadas;
+Z demonstra a quantidade de modificações realizadas.
 
 ---
 
-### 1.2. Modificações Grandes
+### 1.2. Quantidade de sprint
 
-As Modificações Grandes correspondem a qualquer modificação na qual, seja necessário um grande mudança na maneira que o *software* foi construído ou até mesmo quando houver 
-
----
-
-### 1.3. Modificações Médias
-
-As Modificações Médias correspondem a qualquer modificação na qual, seja necessário uma sequência de atividades pequenas que podem demorar um tempo relativamente maior que as pequenas mudanças, não precisando mexer necessáriamente com mudanças na base do *software*, mas pode ser um novo projeto para um novo módulo dentro do mesmo.
+O projeto será orientado por *sprints* imitado pela ferramenta *Milestone* dentro do *software* de versionamento do GitHub, de modo que contabilize qual o número do *sprint* do projeto, nos dando uma organização e mostrando ao usuário qual grande atualização ele está atualmente.
 
 ---
 
-### 1.4. Modifiações Pequenas
+### 1.3. Quantidade de modificações de emergência
 
-As Modificações Pequenas correspondem diretamente a qualquer modificação que é feita no *software* cujo seu tempo de implementação não dura mais do que uma semana. Incluíndo requisitos de cliente e outros requisitos vigentes (como segurança, qualidade etc). Também podem ser derivadas de grandes ou médias modificações, de modo que fica ligadas diretamente como filhas dessas *Issues*.
+Uma atualização no projeto que seja necessário pular etapas no planejamento do *sprint* é chamada como Modificação de Emergência, de modo que seja necessário entrar no ambiente de produção o mais rápido possível. Ela é mapeada nesse código da versão, além disso, ele é sobrescrita quando uma nova versão é liberada.
+
+---
+
+### 1.4. Modificações
+
+As Modificações correspondem a qualquer modificação que é feita no *software*. Incluíndo requisitos de cliente e outros requisitos vigentes (como segurança, qualidade etc). Ela estão diretamente ligadas a quantidade de *Issues* resolvidas dentro do *sprint*. 
 
 ---
