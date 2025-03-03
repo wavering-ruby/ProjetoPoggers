@@ -8,19 +8,16 @@ Esse documento visa explicar como será o controle de versão, armazenando quais
 
 ### 1.1. Definições de Modificações
 
-Cada alteração em linhas de código pode ser considerados uma modificação, já que há uma mudança com relação ao antigo *software*. Cada uma dessas modificações possuem diferentes níveis de complexidade com relação as interações com outros componentes do projeto, de modo que seja necessário um esforço maior seja necessário para solução do caso.
+Cada alteração em linhas de código pode ser considerados uma modificação, já que há uma mudança com relação ao antigo *software*. Cada uma dessas modificações possuem diferentes níveis de complexidade com relação as interações com outros componentes do projeto, de modo que seja necessário um esforço maior seja necessário para solução do caso. Para modificações maiores, elas deverão ser dividas em planos de ações menores para que seja melhor distribuído.
 
-Sabendo que as modificações podem ter diferentes níveis de complexidades, é divido as ações que sejam de modificações em três definições que irão refletir diretamente dentro de uma versão de um *software* ou projeto, sendo elas:
+Sabendo que as modificações podem ter diferentes níveis de complexidades, é divido as ações que sejam de modificações em três definições que irão refletir diretamente dentro de uma versão de um *software* ou projeto.
 
-- **Modificações Grandes:**
-- **Modificações Médias**
-- **Modificações Pequenas**
-
-Isso reflete diretamente nos códigos das versões, onde:
-
+Elas estão conectadas diretamente ao último dígito do código de versionamento, onde cada um dessas depend
 
 X demonstra o *sprint* do projeto;
+
 Y demonstra a quantidade de modificações de emergência realizadas;
+
 Z demonstra a quantidade de modificações realizadas.
 
 ---
