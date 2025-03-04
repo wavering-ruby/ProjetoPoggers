@@ -77,7 +77,13 @@ Em poucas palavras, o Vite é uma ferramenta de construção JavaScript moderna 
 Primeiramente, deve-se criar uma configuração para o Vite. Geralmente, nós colocamos dentro da pasta do projeto. Para isso, precisamos utilizar o comando abaixo para mudar o diretório:
 
 ```powershell
-cd "./Project"
+cd "./projeto"
+```
+
+**Ou você podeutilizar o comando resumido para acessar a pasta:**
+
+```powershell
+cd projeto
 ```
 
 Depois disso, você pode criar a configuração mais recente do Vite utilizando o comando abaixo:
