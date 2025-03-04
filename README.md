@@ -146,6 +146,8 @@ npm install jwt-decode
 
 #### Documentação
 
+https://pt-br.react.dev/
+
 ---
 
 #### Cuidados
