@@ -39,3 +39,9 @@ Uma atualização no projeto que seja necessário pular etapas no planejamento d
 As Modificações correspondem a qualquer modificação que é feita no *software*. Incluíndo requisitos de cliente e outros requisitos vigentes (como segurança, qualidade etc). Ela estão diretamente ligadas a quantidade de *Issues* resolvidas dentro do *sprint*. 
 
 ---
+
+## 2. Milestone
+
+Como citado em documentos diferentes, a *Milestone* serve para organizar as ações por *sprint*, dessa maneira, é possível a quantidade de modificações feitas no *software* de maneira fácil. 
+
+Para mais detalhes sobre contoles de ação você pode ler o documento "A - Gestão de Ações.md" ou o documento de desenvolvimento (documentação do projeto integrador).
