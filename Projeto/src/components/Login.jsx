@@ -15,15 +15,16 @@ const Login = ({ type }) => {
     const user = {
       usr_nome: "Power da Silva",
       usr_email: email,
-      usr_password: password,
-      urs_tipo: "Genérico"
+      usr_senha: password,
+      usr_tipo: "Genérico"
     };
 
     try {
-      const response = await fetch('http://localhost:8080/usuario', {
+      const response = await fetch("http://localhost:8080/usuario", {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          "Accept": "application/json",
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(user),
       });
