@@ -1,9 +1,5 @@
 package om.faculdade.eventln.controller;
-
-
-
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -15,67 +11,62 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import jakarta.validation.Valid;
-import om.faculdade.eventln.domain.requestusuario;
-import om.faculdade.eventln.domain.usuario;
-import om.faculdade.eventln.domain.usuariorepository;
+import om.faculdade.eventln.domain.UserRequest;
+import om.faculdade.eventln.domain.User;
+import om.faculdade.eventln.domain.UserRepository;
 
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/usuario")
 
-public class UsuarioController {
+public class UserController {
 	@Autowired
-	private usuariorepository repository;
+	private UserRepository repository;
 	
     @GetMapping
-    public ResponseEntity getAllUsuario(){
-        var allusuario = repository.findAll();
+    public ResponseEntity getAllUsers(){
+        var allUsers = repository.findAll();
         	
-       return ResponseEntity.ok(allusuario);
+       return ResponseEntity.ok(allUsers);
        
     }
     
     @PostMapping
-    public ResponseEntity registrarusuario(@RequestBody @Valid requestusuario data) {
-        usuario newusuario = new usuario(data);
+    public ResponseEntity registerUser(@RequestBody @Valid UserRequest data) {
+        User newUser = new User(data);
         // Salvar o usuario
-        repository.save(newusuario);
+        repository.save(newUser);
         return ResponseEntity.ok().build();
     }
 
     
     @PutMapping("/{id}")
-    public ResponseEntity<?> atualizarusuario(@PathVariable Integer id, @RequestBody @Valid requestusuario data) {
-        Optional<usuario> usuarioExistente = repository.findById(id);
+    public ResponseEntity<?> updateUser(@PathVariable Integer id, @RequestBody @Valid UserRequest data) {
+        Optional<User> user = repository.findById(id);
         
-        if (usuarioExistente.isPresent()) {
-            usuario usuarioAtualizado = usuarioExistente.get();
+        if (user.isPresent()) {
+            User userUpdate = user.get();
 
             // Atualizando os dados do usuario
-            usuarioAtualizado.setUsr_nome(data.usr_nome());
-            usuarioAtualizado.setUsr_email(data.usr_email());
-            usuarioAtualizado.setUsr_senha(data.usr_senha());
-            usuarioAtualizado.setUsr_tipo(data.usr_tipo());
+            userUpdate.setUsrName(data.usrName());
+            userUpdate.setUsrEmail(data.usrEmail());
+            userUpdate.setUsrPassword(data.usrPassword());
+            userUpdate.setUsrType(data.usrType());
 
             // Salvando o usuario atualizado
-            repository.save(usuarioAtualizado);
+            repository.save(userUpdate);
             
-            return ResponseEntity.ok(usuarioAtualizado);
+            return ResponseEntity.ok(userUpdate);
         } else {
             return ResponseEntity.notFound().build();
         }
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity deletarusuario(@PathVariable Integer id) {
+    public ResponseEntity deleteUser(@PathVariable Integer id) {
     	repository.deleteById(id);
+
     	return ResponseEntity.noContent().build();
     }
-
-    
-
-
-
 }
